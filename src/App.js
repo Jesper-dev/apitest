@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import LoveApi from "./components/apis/LoveApi";
+import Pictures from './components/apis/Pictures'
+import RandomNumFact from "./components/apis/RandomNumFact";
 
-function App() {
+import Header from "./components/Header";
+import "./style/styles.css"
+
+
+
+// state = { images: [] };
+
+// onSearchSubmit = async (term) => {
+//     const response = await unsplash.get('/search/photos', {
+//         params: { query: term }
+//     });
+
+//     this.setState({ images: response.data.results });
+// }
+
+const title = "Pick a Magic number!"
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+        <Header title={title}/>
+        <RandomNumFact/>
+        <LoveApi />
+    </>
   );
 }
 

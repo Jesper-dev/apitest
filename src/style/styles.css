@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #654ea3;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+ 
+}
+
+.header > h1{
+    font-size: 3.2rem;
+
+}
+
+.numbergen-container{
+    height: 100vh;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+form > input{
+    color:  #654ea3;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    background: #ffffff;
+    width: 30px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.numbergen-container > p{
+    font-size: 2rem;
+    width: 400px;
+    height: 200px;
+}
+
+
+#love {
+    height: 100vh;
+}
+
+#love > h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.fa-kiss-wink-heart{
+    font-size: 12rem;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.name-inputs-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 130px;
+}
