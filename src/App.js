@@ -2,6 +2,7 @@ import React from "react";
 import LoveApi from "./components/apis/LoveApi";
 import Pictures from './components/apis/Pictures'
 import RandomNumFact from "./components/apis/RandomNumFact";
+import Landingpage from './components/Landingpage';
 
 import Header from "./components/Header";
 import "./style/styles.css"
@@ -18,14 +19,15 @@ import "./style/styles.css"
 //     this.setState({ images: response.data.results });
 // }
 
-const title = "Pick a Magic number!"
+const title = "Gutenberg's API Central"
 
 const App = () => {
   return (
     <>
-        <Header title={title}/>
-        <RandomNumFact/>
-        <LoveApi />
+      <Header title={title} />
+      <Landingpage />
+      <RandomNumFact />
+      <LoveApi />
     </>
   );
 }

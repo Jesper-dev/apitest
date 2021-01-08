@@ -1,0 +1,10 @@
+.love-names{
+    display: flex;
+    justify-content: center;
+}
+
+
+.lover-name, .my-name {
+    display: flex;
+    align-items: center;
+}

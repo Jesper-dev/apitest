@@ -31,13 +31,6 @@ body{
     align-items: center;
 }
 
-.form-div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 100px;
-}
 
 label {
     font-weight: bold;
@@ -71,7 +64,7 @@ form > input{
     text-align: center;
 }
 
-.fa-kiss-wink-heart{
+.fa-kiss-beam{
     font-size: 12rem;
     margin-left: 50px;
     margin-top: 50px;
