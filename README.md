@@ -1,7 +1,5 @@
 # A website showing three different APIs
 
----
-
 ## Made my
 
 - **Jesper Pettersson** (<https://github.com/JesperKYH>)

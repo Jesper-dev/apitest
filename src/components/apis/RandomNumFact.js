@@ -44,7 +44,7 @@ function RandomNumFact() {
 
   return (
     <div className="numbergen-container">
-      <h1 id="generate-fun-fact">Generate a fun fact:</h1>
+    {/*   <h1 id="generate-fun-fact">Generate a fun fact:</h1> */}
       <p>{data}</p>
       <div className="random-num-display">{num}</div>
       <i id="dice-link" class="fas fa-dice" onClick={onButtonClick}> </i>

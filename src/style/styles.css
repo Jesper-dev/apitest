@@ -6,7 +6,6 @@ body{
     background-color: #654ea3;
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
-    height: 100vh;
 }
 
 .header{
@@ -23,12 +22,11 @@ body{
 }
 
 .numbergen-container{
-    height: 100vh;
-    margin-top: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 80px;
 }
 
 
@@ -50,13 +48,8 @@ form > input{
 
 .numbergen-container > p{
     font-size: 2rem;
-    width: 400px;
+    width: 800px;
     height: 200px;
-}
-
-
-#love {
-    height: 100vh;
 }
 
 #love > h1 {
